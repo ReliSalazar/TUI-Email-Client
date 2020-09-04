@@ -23,13 +23,13 @@ Also, the port usually is something like *"imap.gmail.com"* and the port 993, bu
 
 * **email_retrieve.py** is a class needed in **email_tui.py**
 * **receive_email.py** is a script that print in terminal the new emails with a flag of *'UNSEEN'*
-* **send_email** is a script that sendme an email with a image, I have it as a guide for when I implement a form to compose emails and send them.
+* **send_email.py** is a script that send an email to my email account with an image. I have it as a guide for when I implement a form to compose emails and send them.
 
 
 ### Todos
 
  - Write MORE Tests
- - In the emailListForm add button to write a new email, that send you to de write form
+ - In the emailListForm add button to write a new email, that send you to the write form
  - Create a write form with three widgets:
     - TitleText from
     - TitleText subject
