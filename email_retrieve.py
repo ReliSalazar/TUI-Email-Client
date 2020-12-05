@@ -49,7 +49,7 @@ class EmailReader():
                         hdr['body'] = part.get_payload()
                         break
             elif maintype == 'text':
-                hdr['body'] = msg.get_ppayload()
+                hdr['body'] = msg.get_payload()
                 break
             if type(hdr['subject']) == bytes:
                 hdr['subject'] = hdr['subject'].decode('utf-8')
